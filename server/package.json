@@ -1,0 +1,27 @@
+{
+  "name": "recipes",
+  "version": "1.0.0",
+  "description": "Recipe manager",
+  "main": "app.js",
+  "dependencies": {
+    "express":"*",
+    "body-parser":"*",
+    "ejs":"^2.4.2",
+    "morgan":"*",
+    "neo4j-driver":"*"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sajiideas/recipes.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sajiideas/recipes/issues"
+  },
+  "homepage": "https://github.com/sajiideas/recipes#readme"
+}
