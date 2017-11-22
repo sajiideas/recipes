@@ -1,0 +1,14 @@
+
+<form>
+    <label>Add Recipe :</label><br/>
+    <textarea rows="15" cols="80"></textarea><br/>
+    <input type="button">Add</input>
+</form>
+
+<h1>Ingredient</h1>
+<ul>
+<% ingredients.forEach(function(ing){%>
+<li><%= ing%></li>
+
+<%})%>
+</ul>
