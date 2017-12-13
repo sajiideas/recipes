@@ -81,5 +81,10 @@
             <artifactId>segmentation.evaluation</artifactId>
             <version>0.2</version>
         </dependency>
+        <dependency>
+            <groupId>org.neo4j</groupId>
+            <artifactId>neo4j-jdbc-driver</artifactId>
+            <version>3.0.1</version>
+        </dependency>
     </dependencies>
 </project>

@@ -70,7 +70,7 @@ public class RecipeCrawlerController{
                 try {
                       String key = entry.getKey();
                       String pageName = ((key.indexOf("/") > 0)?key.substring(key.lastIndexOf("/")):key);
-                      String name = ((pageName != null && pageName.length() > 0)?pageName:"")+UUID.randomUUID().toString();//entry.getKey().replaceAll(File.pathSeparator,"_");
+                      String name = ((pageName != null && pageName.length() > 0)?pageName:"")+"_"+UUID.randomUUID().toString();//entry.getKey().replaceAll(File.pathSeparator,"_");
                       System.out.println("Writing "+name);
                       File fl = new File(crawlStorageFolder,name);
                       BufferedWriter writer = new BufferedWriter(new FileWriter(fl));
